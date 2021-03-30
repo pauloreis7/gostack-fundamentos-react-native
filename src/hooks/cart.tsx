@@ -40,7 +40,7 @@ const CartProvider: React.FC = ({ children }) => {
     }
 
     loadProducts();
-  }, [products]);
+  }, []);
 
   const addToCart = useCallback(
     async product => {
